@@ -1,0 +1,363 @@
+/* ---------------------------------------  */
+
+.banner {
+  background: url(assets/image/homepage/homepage.jpg);
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: #fff;
+}
+
+.banner-2 {
+  background-size: 100% auto; /* Menutupi seluruh lebar dan mengikuti tinggi aslinya */
+  margin-left: 90px;
+  background-position: left center;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: #3b3b3b;
+}
+
+#flower-menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+#flower-menu li {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Pusatkan item secara horizontal */
+  text-align: center; /* Pusatkan teks */
+}
+
+#flower-menu img {
+  width: 200px; /* Lebar gambar setelah resize */
+  height: 200px; /* Tinggi gambar setelah resize */
+  margin-bottom: 10px; /* Beri jarak antara gambar dan teks */
+  border-radius: 10px; /* Atur sudut gambar menjadi bulat dengan radius 10px */
+  object-fit: cover; /* Gambar akan di-crop untuk menutupi area yang ditentukan */
+}
+
+#flower-menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.list-unstyled {
+  display: flex;
+  justify-content: center;
+}
+
+.list-unstyled li {
+  margin-right: 30px; /* Sesuaikan nilai margin-right sesuai dengan kebutuhan */
+}
+
+.banner h4 {
+  color: black;
+}
+
+.banner h3 {
+  color: black;
+}
+
+.display-1 {
+  max-width: 600px; /* Sesuaikan dengan lebar maksimum yang diinginkan */
+  margin-left: 1px;
+  margin-right: auto;
+  overflow-wrap: break-word;
+  font-size: 1.5rem; /* Sesuaikan ukuran teks sesuai kebutuhan */
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+}
+
+@keyframes blinkAnimation {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes blinkAnimation {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.display-2 {
+  font-size: 2rem;
+  text-align: center;
+  max-width: 100%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-right: 100px;
+  font-weight: bold;
+  animation: beatAnimation 1s infinite, blinkAnimation 2s infinite; /* Ganti dengan durasi dan iterasi yang diinginkan */
+}
+
+.display-3 {
+  font-size: 3rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.display-4 {
+  font-size: 2rem;
+  margin-left: 20px;
+  max-width: 100%;
+}
+
+.display-6 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: normal;
+}
+
+.custom-btn {
+  font-size: 25px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  border-color: green;
+  text-decoration: none; /* Menghapus underline pada tautan */
+}
+
+.ctm-button {
+  font-size: 30px; /* Sesuaikan ukuran font sesuai kebutuhan Anda */
+  padding: 20px 30px; /* Sesuaikan padding sesuai kebutuhan Anda */
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+.navbar-brand {
+  font-size: 45px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
+.nav-link {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+.custom-btn-2 {
+  font-size: 15px;
+  font-weight: bold;
+  width: 150px; /* Sesuaikan nilai width sesuai kebutuhan Anda */
+  display: flex;
+  justify-content: center;
+  color: black;
+  border-color: black;
+  margin-top: 20px;
+}
+
+.custom-btn-3 {
+  font-size: 15px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.custom-btn-4 {
+  font-size: 15px;
+  width: 200px;
+  display: flex;
+  justify-content: left;
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-fluid {
+  width: 400px; /* Biarkan lebar otomatis agar gambar tetap proporsional */
+  height: 400px; /* Sesuaikan dengan ukuran yang diinginkan */
+  object-fit: cover; /* Gambar akan di-crop untuk menutupi area yang ditentukan */
+  border-radius: 30px; /* Atur sudut gambar menjadi bulat dengan radius 10px */
+  margin-left: 150px;
+}
+
+.card {
+  width: 80%; /* Sesuaikan lebar kartu sesuai kebutuhan Anda */
+  margin-left: auto; /* Menggeser ke kanan */
+  margin-right: 20px; /* Menggeser ke kanan */
+  box-shadow: 20px 20px 20px rgba(13, 14, 13, 0.658); /* Tambahkan efek bayangan */
+}
+
+.card-2 {
+  width: 80%; /* Sesuaikan lebar kartu sesuai kebutuhan Anda */
+  margin-left: 25px; /* Menggeser ke kanan */
+  margin-right: auto; /* Menggeser ke kanan */
+  box-shadow: 20px 20px 20px rgba(13, 14, 13, 0.658); /* Tambahkan efek bayangan */
+}
+
+.card-img-top {
+  width: 180px; /* Menyesuaikan lebar kartu */
+  height: 200px; /* Biarkan tinggi otomatis agar gambar tetap proporsional */
+  object-fit: cover; /* Gambar akan di-crop untuk menutupi area yang ditentukan */
+}
+
+.cart-tab {
+  width: 400px;
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  inset: 0 0 0 auto;
+  display: grid;
+  grid-template-rows: 70px 1fr 70px;
+  transition: transform 0.5s;
+}
+
+body.showCart .cartTab {
+  right: 0;
+}
+body.showCart .container {
+  transform: translateX(-250px);
+}
+
+.cart-tab h1 {
+  padding: 20px;
+  margin: 0px;
+  font-weight: 300;
+}
+
+.cart-tab .btn {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.cart-tab button {
+  background-color: #e8bc0e;
+  border: none;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.cartTab .close {
+  background-color: #eee;
+}
+.listCart .item img {
+  width: 100%;
+}
+.listCart .item {
+  display: grid;
+  grid-template-columns: 70px 150px 50px 1fr;
+  gap: 10px;
+  text-align: center;
+  align-items: center;
+}
+.listCart .quantity span {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+  color: #555;
+  cursor: pointer;
+}
+.listCart .quantity span:nth-child(2) {
+  background-color: transparent;
+  color: #eee;
+  cursor: auto;
+}
+.listCart .item:nth-child(even) {
+  background-color: #eee1;
+}
+.listCart {
+  overflow: auto;
+}
+.listCart::-webkit-scrollbar {
+  width: 0;
+}
+@media only screen and (max-width: 992px) {
+  .listProduct {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* mobile */
+@media only screen and (max-width: 768px) {
+  .listProduct {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@keyframes textAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animated-text {
+  display: inline-block;
+  animation: textAnimation 2s infinite;
+}
+
+.btn {
+  font-size: 12px;
+  padding: 10px 15px;
+  max-width: 150px; /* Atur lebar maksimum */
+  /* Opsi lain: Anda juga dapat menggunakan properti width untuk lebar tetap */
+}
+
+.logo-text {
+  font-family: "Arial", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  /* Gaya atau properti tambahan lainnya sesuai keinginan Anda */
+  /* Misalnya: */
+  /* text-transform: uppercase; */
+  /* color: #333; */
+  /* letter-spacing: 2px; */
+  margin-left: 10px; /* Untuk memberi jarak antara gambar dan teks */
+}
+
+img {
+  width: 130px; /* Atur lebar gambar */
+  height: 130px; /* Biarkan tinggi gambar menyesuaikan proporsi */
+  margin-left: 50px;
+}
+
+.icon {
+  font-size: 60px; /* Ubah ukuran ikon sesuai kebutuhan */
+  /* Properti tambahan lainnya sesuai keinginan Anda */
+  /* Contoh: */
+  /* color: blue; */ /* Mengatur warna ikon */
+  /* margin-right: 10px; */ /* Memberi margin di sebelah kanan ikon */
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center; /* Menyusun elemen secara vertikal di tengah */
+}
+
+.navbar-nav li {
+  margin-right: 20px; /* Jarak antar menu navigasi */
+}
+
+.navbar-nav .ml-auto {
+  margin-left: auto; /* Menggeser elemen ke kanan */
+}
+
+/* Untuk mengatur gaya pada ikon */
+i.bx {
+  font-size: 20px; /* Ukuran ikon */
+}
